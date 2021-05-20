@@ -10,11 +10,19 @@ A curated list of some open source frameworks, libraries and softwares employing
 * [IGA-dealii](https://github.com/mathLab/IGA-dealii) [[5](#igadealii)] - supports classes for performing isogeometric analysis using the deal.ii library. Developed at the International School for Advanced Studies, SISSA. 
 * [ISOGAT](http://www-m2.ma.tum.de/bin/view/Allgemeines/EXCITING) - a tutorial code written in MATLAB for solving elliptic diffusion-type problems including Poisson's equation on single patch geometries. Primarily intended for small-scale/tutorial-related problems. Developed at the Faculty of Mathematics at [TU Munich](https://www.tum.de/en/).
 * [mechanoChemIGA](https://github.com/mechanoChem/mechanoChemIGA) [[6](#mechanochemiga)] - a high performance parallel code built on top of PetIGA and PETSc libraries. Supports PDEs describing solid mechanics and chemistry (including the Cahn-hiliard phase field model). Developed at the [Computational Physics Group](http://www.umich.edu/~compphys/index.html), [University of Michigan](https://umich.edu/).
-* [PetIGA](https://bitbucket.org/dalcinl/petiga/src/master/) [[7](#petiga)] - a high performance parallelized numerical framework written in C, which adds the NURBS based discretization capabilities on top of PETSc. Developed by the Center for Numerical Porous Media, Division of Computer, Electrical, and Mathematical Sciences & Engineering ([CEMSE](https://cemse.kaust.edu.sa/)) at [King Abdullah University of Science and Technology](https://www.kaust.edu.sa/en). The same set of researchers have developed [PetIGA-MF](https://doi.org/10.1016/j.jocs.2016.09.010) written on top of PetIGA but this is not open-source.
-* [Pigasus](https://github.com/ratnania/pigasus) [[8](#pigasus)] - a FORTRAN library interfaced with Python which includes a visualization module as well. Supports B-splines and NURBS. Developed at CEA, France. 
-* [tiGAr](https://github.com/david-kamensky/tIGAr) [[9](#tigar)] - a high performance Python library for isogeometric analysis using IGA. Developed at the Department of Mechanical and Aerospace Engineering, [University of California at San Diego](https://ucsd.edu/).
+* [MFEM](https://github.com/mfem/mfem) [[7](#mfem)] - an MPI-parallelized modular library which supports mixed finite element methods, discontinuous galerkin methods, isogeometric analysis, discontinuous petrov-galerkin methods, mesh refinement techniques. Can run serially and also in GPUs. Python wrapper for MFEM also available as [PyMFEM](https://github.com/mfem/PyMFEM). Developed at the [Lawrence Livermore National Laboratory](https://www.llnl.gov/).
+* [nutils](https://github.com/evalf/nutils) [[8](#nutils)] - a parallelized python library supporting isogeometric analysis, finite cell method, mixed methods and hierarchial refinement. Developed by [Evalf computing](https://evalf.com/).
+* [PetIGA](https://bitbucket.org/dalcinl/petiga/src/master/) [[9](#petiga)] - a high performance parallelized numerical framework written in C, which adds the NURBS based discretization capabilities on top of PETSc. Developed by the Center for Numerical Porous Media, Division of Computer, Electrical, and Mathematical Sciences & Engineering ([CEMSE](https://cemse.kaust.edu.sa/)) at [King Abdullah University of Science and Technology](https://www.kaust.edu.sa/en). The same set of researchers have developed [PetIGA-MF](https://doi.org/10.1016/j.jocs.2016.09.010) written on top of PetIGA but this is not open-source.
+* [Pigasus](https://github.com/ratnania/pigasus) [[10](#pigasus)] - a FORTRAN library interfaced with Python which includes a visualization module as well. Supports B-splines and NURBS. Developed at CEA, France. 
+* [tiGAr](https://github.com/david-kamensky/tIGAr) [[11](#tigar)] - a high performance Python library for isogeometric analysis using IGA. Developed at the Department of Mechanical and Aerospace Engineering, [University of California at San Diego](https://ucsd.edu/).
 
----------------
+---------------------------
+## NURSB, B-spline mesh generation packages
+
+* [igakit](https://bitbucket.org/dalcinl/igakit) - a Python package for generating NURBS and B-spline based meshes. Developed by the Center for Numerical Porous Media, Division of Computer, Electrical, and Mathematical Sciences & Engineering ([CEMSE](https://cemse.kaust.edu.sa/)) at [King Abdullah University of Science and Technology](https://www.kaust.edu.sa/en). 
+* [NURBS-Python](https://github.com/orbingol/NURBS-Python) [[12](#nurbs_pyth)] - a Python library for generating B-splines and NURBS meshes. Developed at the Department of Mechanical Engineering, [Iowa State University](https://www.iastate.edu/).
+
+---------------------------
 ## References
 
 1. <a name="gismo"></a> [Official website of G+Smo](https://gismo.github.io/)
@@ -29,8 +37,14 @@ A curated list of some open source frameworks, libraries and softwares employing
 
 1. <a name="mechanochemiga"></a> Rudraraju, S., Van der Ven, A., Garikipati, K., _Phenomenological treatment of chemo-mechanical spinodal decomposition_, Computational Materials, Vol. 2, 2016. [Link](10.1038/npjcompumats.2016.12)
 
+1. <a name="mfem"></a> Anderson, R. et al., _MFEM: A Modular Finite Element Library_, Computers and Mathematics with Applications, Vol. 81, pp. 42-74, 2021. [Link](10.1016/j.camwa.2020.06.009)
+
+1. <a name="nutils"></a> van Zwieten, G., van Zwieten, J., Verhoosel, C., Fonn, E., van Opstal, T., Hoitinga, W., _Nutils (version 6.2)_, Zenodo, 2020. [Link](http://doi.org/10.5281/zenodo.4071707)
+
 1. <a name="petiga"></a> Dalcin, L., Collier, N., Vignal, P., Côrtes, A.M.A, Calo, V.M., _PetIGA: A framework for high-performance isogeometric analysis_, Computer Methods in Applied Mechanics and Engineering, Vol. 308, pp. 151-181, 2016. [Link](https://doi.org/10.1016/j.cma.2016.05.011)
 
 1. <a name="pigasus"></a> Ratnani, A., _Pigasus : Python for IsoGeometric AnalysiS and Unified Simulations_, Computer Methods in Applied Mechanics and Engineering, Vol. 308, pp. 151-181, 2016. [Link](https://hal.inria.fr/hal-00769225)
 
 1. <a name="tigar"></a> Kamensky, D., Bazilevs, Y., _tIGAr: Automating isogeometric analysis with FEniCS_, Computer Methods in Applied Mechanics and Engineering, Vol. 344, pp. 477-498, 2019. [Link](https://doi.org/10.1016/j.cma.2018.10.002)
+
+1. <a name="nurbs_pyth"></a> Bingol, O. R., Krishnamurthy, A., _NURBS-Python: An open-source object-oriented NURBS modeling framework in Python_, SoftwareX, Vol. 9, pp. 85-94, 2019. [Link](https://doi.org/10.1016/j.softx.2018.12.005)
