@@ -23,6 +23,10 @@ A curated list of some open source frameworks, libraries and softwares employing
 * [NURBS-Python](https://github.com/orbingol/NURBS-Python) [[12](#nurbs_pyth)] - a Python library for generating B-splines and NURBS meshes. Developed at the Department of Mechanical Engineering, [Iowa State University](https://www.iastate.edu/).
 
 ---------------------------
+## Course notes on IGA
+* [IGA-notes](https://github.com/CMGLab/IGA-Notes) - lecture notes of the course "Isogeometric methods" authored by Prof. John Evans, University of Colorado, Boulder.
+
+---------------------------
 ## References
 
 1. <a name="gismo"></a> [Official website of G+Smo](https://gismo.github.io/)
